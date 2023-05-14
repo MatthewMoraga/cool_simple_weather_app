@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
+    </head>
+    <body>
+        
+        <header>
+        
+            <h1>Weather Dashboard</h1>
+
+        </header>
+        
+            <section class="weather-search">
+
+                <section class="weather">
+                    <form class="weather-by-city">
+                        <h3>Search for a City:</h3>
+                        <input type="text" class="form-input-city" id="city-input" placeholder="Any City">
+                        <button class="btn-city-search">Search</button>
+                    </form>
+                    
+                </section>
+                
+                <section class="info">
+                    <button id="trenton" class="state-button hide">Trenton</button>
+                    <button id="new-york" class="state-button">New York</button>
+                    <button id="philadelphia" class="state-button">Philadelphia</button>
+                    <button id="boston" class="state-button">Boston</button>
+                    <button id="washington-dc" class="state-button">Washington DC</button>
+                    <button id="miami" class="state-button">Miami</button>
+                    <button id="manchester" class="state-button">Manchester</button>
+                    <button id="charlotte" class="state-button">Charlotte</button>
+                </section>
+            
+            </section>
+        
+        <section class="forecast-5">
+                
+            <section id="current-weather" class="current-weather-display">
+                <h1 id="current-day"></h1>
+            </section>
+                
+                
+                <h1>5-Day Forecast:</h1>
+                
+                <section id="forecast" class="forecast-display">
+                    <p id="day1" class="day"></p>
+                    <p id="day2" class="day"></p>
+                    <p id="day3" class="day"></p>
+                    <p id="day4" class="day"></p>
+                    <p id="day5" class="day"></p>
+                </section>
+                
+        </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    </body>
+</html>
